@@ -1,6 +1,6 @@
 # Purpose of this repo
 
-_Playing around with React by building a small web app and learning on the way — based on the DesignCode "React for Designers" tutorial._
+_Playing around with React by building a small web app and learning on the way — based on the DesignCode "React for Designers" course._
 
 ***
 # gatsby-starter-default
