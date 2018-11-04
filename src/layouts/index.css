@@ -31,25 +31,38 @@ a {
 .hero-group__title {
   margin: 0;
   color: #fff;
-  font-size: 56px;
+  font-size: 40px;
   line-height: 1.175;
 }
 
 .hero-group__intro-text {
   margin: 24px 0 32px 0;
   color: rgba(255, 255, 255, 0.8);
-  font-size: 24px;
+  font-size: 16px;
 }
 
 .hero-group__link {
   /* margin: 48px 0 0 0; */
   margin-top: 24px;
-  padding: 12px 20px;
+  padding: 10px 20px;
   border-radius: 12px;
-  background: rgba(0, 0, 0, 0.6667);
+  background: rgba(0, 0, 0, 0.0);
   border: 1px solid rgba(255, 255, 255, 0.15);
   color: #fff;
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
+}
+
+@media (min-width: 641px) {
+
+  .hero-group {}
+
+  .hero-group__title {
+    font-size: 56px;
+  }
+
+  .hero-group__intro-text {
+    font-size: 24px;
+  }
 }
