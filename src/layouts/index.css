@@ -100,11 +100,10 @@ a {
 }
 
 .card-group {
-  margin: 48px 16px 96px 16px;
+  margin: 48px auto 96px auto;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 32px;
-  justify-items: center;
 }
 
 @media (min-width: 641px) {
@@ -125,11 +124,18 @@ a {
   }
 }
 
-@media (min-width: 721px) {
+@media (min-width: 441px) {
   .card-group {
+    max-width: 640px;
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+/* @media (min-width: 721px) {
+  .card-group {
+    grid-template-columns: repeat(3, 1fr);
+  }
+} */
 
 @media (min-width: 1061px) {
   .card-group {
