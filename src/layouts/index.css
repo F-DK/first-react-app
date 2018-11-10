@@ -89,6 +89,24 @@ a {
   left: 0;
 }
 
+.cards h2 {
+  margin: 48px 24px;
+  font-size: 64px;
+  text-align: center;
+  font-weight: 700;
+  background: linear-gradient(1.4deg, #050A27 0%, #4A548C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-group {
+  margin: 48px 16px 96px 16px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 32px;
+  justify-items: center;
+}
+
 @media (min-width: 641px) {
 
   /* .hero-group {} */
@@ -101,6 +119,21 @@ a {
   }
   .hero-group__logos {
     grid-template-columns: repeat(6, 1fr);
+  }
+  .card-group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 721px) {
+  .card-group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1061px) {
+  .card-group {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
