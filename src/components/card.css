@@ -1,3 +1,10 @@
+* {
+  transition: 
+    color .8s cubic-bezier(.2,.8,.2,1),
+    background-color .8s cubic-bezier(.2,.8,.2,1),
+    fill .8s cubic-bezier(.2,.8,.2,1)
+}
+
 .card {
   position: relative;
   width: 288px;
@@ -17,15 +24,18 @@
 }
 
 .card__image {
+  cursor: pointer;
   position: absolute;
-  top: 0;
-  height: 110%;
+  top: -16px;
+  left: -16px;
+  height: calc(100% + 32px);
+  background-position: center center;
   z-index: -1;
   transition: 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .card__image:hover {
-  transform: translateY(-12px);
+  transform: translateY(16px);
 }
 
 .card__title {
