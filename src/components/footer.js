@@ -77,7 +77,7 @@ const Copyright = styled.div`
 const Footer = ({data, children}) => (
   <FooterGroup>
     <Text>
-      Tweet "Hello fellow designers learning React! — @FUKAIdesign"
+      Tweet
     </Text>
     <Button>
       Tweet
