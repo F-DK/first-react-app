@@ -2,8 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 
 const FooterGroup = styled.div`
-  bachground: #F1F3F5;
-  padding: 0 0 48px 0;
+  background: #F1F3F5;
+  padding: 48px 0;
   display: grid;
 `
 const Text = styled.p`
@@ -17,6 +17,7 @@ const Text = styled.p`
   @media (min-width: 641px) {
     max-width: 800px;
     margin: 0 auto;
+    padding: 48px 0;
   }
 `
 const Button = styled.button`
